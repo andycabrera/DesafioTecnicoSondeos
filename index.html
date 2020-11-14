@@ -24,9 +24,9 @@
     <form id="form">
         <div class="container form-group">
             <label>Descripcion de la tarea</label>
-            <input type="text" name="description" class="form-control" placeholder="Ingrese la Descripcion aqui">
+            <input type="text" name="description" id="description" class="form-control">
             <br>
-            <button type="submit" class="btn btn-danger w-100">Agregar Tarea</button>
+            <button type="submit" class="btn btn-success w-100">Agregar Tarea</button>
         </div>
     </form>
     
@@ -34,11 +34,10 @@
         <br>
         <h1 class="display-4">Tareas</h1>
 
-        <table class="table">
+        <table class="table talbe-secondary">
             <thead>
                 <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Descripción</th>
+                    <th scope="col" class="col-md">Descripción</th>
                     <th scope="col"></th>
                 </tr>
             </thead>
