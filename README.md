@@ -1,2 +1,2 @@
 # Desafio Tecnico Sondeos
-Desarrollo web para la gestionar listados de tareas.
+Desarrollo web para gestionar tareas.
