@@ -8,7 +8,7 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     var data = new FormData(form)
 
-    if(data.get("description")){
+    if(descriptionInput.value.trim() !="" ){
         tasks.push(data.get("description"))
         descriptionInput.value = null
         refreshTable()
