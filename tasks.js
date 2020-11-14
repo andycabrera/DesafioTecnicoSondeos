@@ -14,6 +14,7 @@ form.addEventListener('submit', (e) => {
         refreshTable()
     }else{
         alert("No puede ingresar una tarea vacia");
+        descriptionInput.value = null
     }
 })
 
